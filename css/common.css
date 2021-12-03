@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+
+body {
+    background-color: #C6E0FF;
+    font-family: 'Lateef', cursive;
+    color: #253031;
+}
+
+
+.hero {
+    height: 400px;
+}
+
+
+#sun {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-radius:50%;
+    background: white;
+    box-shadow: 0 0 20px 10px lightyellow,
+                0 0 50px 40px yellow,
+                0 0 60px 50px rgb(211, 102, 0);
+    animation: glow 30s linear infinite;
+    z-index: 1;
+}
+
+@keyframes glow{
+   0% {
+        height: 20px;
+        width: 20px;
+    }
+    50% {
+        height: 90px;
+        width: 90px;
+    }
+    100% {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+#blackCloud{
+    position:absolute;
+    width: 300px;
+    height: 200px;
+    top: 130px;
+    left: 0;
+    z-index: 2;
+    animation: road 30s linear infinite;
+}
+
+#whiteCloud {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 110px;
+    left: -400px;
+    z-index: 2;
+    animation: road 30s linear infinite;
+
+}
+
+@keyframes road {
+    from {
+        transform: translateX(10px);
+    }
+    to {
+        transform: translateX(1330px);
+
+
+    }
+}
+
+#lightning {
+    margin-top: 20px;
+    text-shadow: black;
+    line-height: 0;
+    padding-top: 0;
+    animation: show 30s ease infinite;
+    filter: drop-shadow(10px 10px 10px #000); 
+}
+
+@keyframes show {
+    0% {
+        height: 0px;
+        width: 0px;
+    }
+    40% {
+        height: 0px;
+        width: 0px;
+    }
+    44% {
+        height: 75px;
+        width: 50px;
+    }
+    60% {
+        height: 0px;
+        width:0px;
+    }
+    100% {
+        height: 0px;
+        width:0px;
+    }   
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 25px;
+}
+
+.inputSelect {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 0px;
+
+}
+
+.inputSelect #selectCity, .inputSelect #selectLang {
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid #315659;
+}
+
+#subtitle {
+    
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.container {
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardWeather{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+
+    width: 500px;
+    
+    border: 1px solid white;
+    border-radius: 20px;
+    background: #2978A0;
+    color: #c5daef;
+}
+
+#cardWeather p{
+    line-height: 2px;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#cardWeather h3{
+    margin-bottom: 2px;
+    text-align: center;
+    /* margin-left: 20px; */
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+#cardWeather sup {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+
+#cardWeather img {
+    width: 50px;
+    height: 50px;
+}
