@@ -373,31 +373,6 @@ const lang = [
     }
 ];
 
-const traductionText =[
-    {
-        value: "it",
-        p1it: "Il meteo oggi prevede",
-        p2it: "Le nuvole sono al",
-        p3it: "La velocità del vento è"
-    },
-    {
-        value: "en",
-        p1en: "The weather forecast today",
-        p2en:"The clouds are at",
-        p3en:"Wind speed is"
-    },
-    {
-        value: "fr",
-        p1fr:"La météo d'aujourd'hui",
-        p2fr:"Les nuages ​​sont al",
-        p3fr:"La vitesse du vent est"
-    },
-    {
-        value: "es",
-        p1es:"El pronóstico del tiempo hoy",
-        p2es:"Las nubes son todas",
-        p3es:"La velocidad del viento es"
-    }
-];
 
-export {cities, lang, traductionText};
+
+export {cities, lang};

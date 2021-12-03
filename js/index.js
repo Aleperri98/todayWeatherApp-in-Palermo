@@ -1,4 +1,4 @@
-import {cities, lang, traductionText} from "./utils.js";
+import {cities, lang} from "./utils.js";
 const inputSelect = document.querySelector(".inputSelect");
 const citySelect = document.querySelector("#selectCity");
 const render = (container, content) => (container.innerHTML = content);
@@ -95,7 +95,6 @@ switch (getLang){
         var list = (data) => {
             let arrayData = [];
             arrayData.push(data);
-            // console.log(arrayData);
             const elements = arrayData
             .map(item =>`<h3>${item.name}</h3>
             <sup>${item.coord.lat}°N ${item.coord.lon}°E</sup>
@@ -117,7 +116,6 @@ switch (getLang){
             var list = (data) => {
                 let arrayData = [];
                 arrayData.push(data);
-                // console.log(arrayData);
                 const elements = arrayData
                 .map(item =>`<h3>${item.name}</h3>
                 <sup>${item.coord.lat}°N ${item.coord.lon}°E</sup>
@@ -139,7 +137,6 @@ switch (getLang){
         var list = (data) => {
             let arrayData = [];
             arrayData.push(data);
-            // console.log(arrayData);
             const elements = arrayData
             .map(item =>`<h3>${item.name}</h3>
             <sup>${item.coord.lat}°N ${item.coord.lon}°E</sup>
