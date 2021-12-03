@@ -6,7 +6,7 @@
 ### I used a fetch to get data from an external server (https://openweathermap.org/) and I inserted in the url the different values ​​of the cities and the language entered by the user through a simple concatenation.
 ### Then I used the local storage to withhold the language value and .map method to callback the values ​​inside a template string.
 </br>
-<p align="center"><img src="img/cattura1.jpg" alt="this is a screen" width="600" height="400"></p>
+<p align="center"><img src="https://github.com/Aleperri98/todayWeatherApp-in-Palermo/blob/main/img/Cattura1.JPG" alt="this is a screen" width="600" height="400"></p>
 </br>
 
 ### In the end I used the method Try and Catch to catch errors.
@@ -14,7 +14,7 @@
 #### For style I mainly used Flexbox and Keyframes for animation.
 
 </br>
-<p align="center"><img src="img/cattura.jpg" alt="this is a screen" width="500" height="400" align="center"></p>
+<p align="center"><img src="https://github.com/Aleperri98/todayWeatherApp-in-Palermo/blob/main/img/Cattura.JPG" alt="this is a screen" width="500" height="400" align="center"></p>
 </br>
 
 <h4 align="left">Languages and Tools:</h3>
